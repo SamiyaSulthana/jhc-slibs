@@ -4,3 +4,4 @@ sshagent(['TomcatDev']) {
                     sh "ssh ${user}@${ip} /opt/sammu/bin/shutdown.sh"
                     sh "ssh ${user}@${ip} /opt/sammu/bin/startup.sh"
 }
+}
